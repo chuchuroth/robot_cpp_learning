@@ -1,1 +1,8 @@
 
+<depend>rclcpp</depend>
+<depend>std_msgs</depend>
+<depend>sensor_msgs</depend>  <!-- 新增：图像消息 -->
+<depend>cv_bridge</depend>    <!-- 新增：OpenCV桥接 -->
+<depend>image_transport</depend>  <!-- 新增：图像传输 -->
+<exec_depend>OpenCV</exec_depend>  <!-- 新增：OpenCV -->
+<exec_depend>wiringPi</exec_depend>  <!-- 新增：Pi硬件（可选） -->
